@@ -1,6 +1,6 @@
 LOCAL_PATH := $(call my-dir)
 
-ifneq ($(filter k5fpr, $(TARGET_DEVICE)),)
+ifneq ($(filter A7010a48, $(TARGET_DEVICE)),)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libaudiocustparam
